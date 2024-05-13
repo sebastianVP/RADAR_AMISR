@@ -31,3 +31,16 @@ DIRECTORIO DEL ARCHIVO DE ATENUADOR PC ADQUISICION
 
 C:\Documents and Settings\radar\Desktop\scripts
 attenuate_radar2.py
+
+# NOTAS PARA EL MONITOREO AMISR 14
+---
+1. Verificar la aquisicion de datos con la hora actual en el directorio correspondiente, se debe estar generando un archivo cada minuto.
+2. El Panel de control debe estar en verde, de esta manera se comprueba que no existen alarmas o fallos en el radar.
+3. El nivel de potencia debe mantenerse a lo largo de todo el experimento, debemos anotar el nivel de potencia inicial y verificar en cada monitoreo que la potencia es bastante parecida.
+4. El monitoreo se puede realizar a través de la pagina de Realtime, el grafico Noise puede retrasarse unos minutos dependiendo de las integraciones, por ejemplo:
+   * Integración 1 min, delay aproximado 3 min.
+   * Integracion 5 min, delay aproimado 10-12 min.
+5. Durante la ejecución de un experimento o turno , debemos deshabilitar las tareas relacionados a la programacion del atenuador, estas tareas van de la mano con 5 archivos que se ejecutan a las 6,7 am y mediodia, noche.
+   * En operacion continua o normal se deben habilitar la ejecucion automatica de las tareas con sus respectivos  archivos.
+   * Si hay error se va a notar con una caida de potencia por unos minutos.
+     
