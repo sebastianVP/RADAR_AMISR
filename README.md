@@ -44,4 +44,5 @@ attenuate_radar2.py
    * En operacion continua o normal se deben habilitar la ejecucion automatica de las tareas con sus respectivos  archivos.
    * Si hay error se va a notar con una caida de potencia por unos minutos.
 6. Para la operacion continua y correcto funcionamiento se recomienda realizar una limpieza de filtros
+7. La limpieza de la fuente, filtros y mantenimiento oportuno evita las alarmas por temperatura en el radar.
      
