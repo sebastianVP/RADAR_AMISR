@@ -43,4 +43,5 @@ attenuate_radar2.py
 5. Durante la ejecución de un experimento o turno , debemos deshabilitar las tareas relacionados a la programacion del atenuador, estas tareas van de la mano con 5 archivos que se ejecutan a las 6,7 am y mediodia, noche.
    * En operacion continua o normal se deben habilitar la ejecucion automatica de las tareas con sus respectivos  archivos.
    * Si hay error se va a notar con una caida de potencia por unos minutos.
+6. Para la operacion continua y correcto funcionamiento se recomienda realizar una limpieza de filtros
      
