@@ -57,5 +57,7 @@ attenuate_radar2.py
    * /home/soporte/Desktop/scripts/2024/bash/esf_offline.sh
    * Envia los datos de potencia al servidor de Fabiano: /home/soporte/Desktop/scripts/2024/python/ryncToDallas.py
    * Contactar a Jose Maria en caso problemas de conexion con el servidor y datos.
-
+# REALTIME EXPERIMENTO ACTUAL 14/05/2024
+* /home/soporte/Desktop/scripts/2024/Turnos/ISR_Mayo
+* isr_online.py
      
