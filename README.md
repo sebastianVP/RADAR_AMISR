@@ -60,4 +60,15 @@ attenuate_radar2.py
 # REALTIME EXPERIMENTO ACTUAL 14/05/2024
 * /home/soporte/Desktop/scripts/2024/Turnos/ISR_Mayo
 * isr_online.py
+
+# OPERACION CONTINUA - SCHEDULED TASKS
+
+START-> ALL PROGRAM -> ACCESORIES -> SYSTEM TOOLS ->  SCHEDULED TASKS
+* 5 PROGRAMAS QUE DEBEN SER HABILITADOS DESPUES DE LOS TURNOS PARA OPERACION DIARIA O CONTINUA DE AMISR.
+   - attenuator_right
+   - attenuator_map3
+   - attenuator_map2
+   - attenuator_map1
+   - attenuator_day
+  
      
