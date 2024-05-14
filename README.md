@@ -45,4 +45,15 @@ attenuate_radar2.py
    * Si hay error se va a notar con una caida de potencia por unos minutos.
 6. Para la operacion continua y correcto funcionamiento se recomienda realizar una limpieza de filtros
 7. La limpieza de la fuente, filtros y mantenimiento oportuno evita las alarmas por temperatura en el radar.
+
+# PROCESAMIENTO PARA INVESTIGADORES
+1. Juan Pablo.
+   * /home/soporte/Desktop/scripts/2024/python
+   * esf_merge_snrDays.py
+2. Marco
+   * /home/soporte/Desktop/scripts/2024/Turnos/ISR_Mayo
+   * isr_offline.py
+3. Fabiano
+   * /home/soporte/Desktop/scripts/2024/bash/esf_offline.sh
+
      
