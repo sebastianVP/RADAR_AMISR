@@ -86,7 +86,8 @@ START-> ALL PROGRAM -> ACCESORIES -> SYSTEM TOOLS ->  SCHEDULED TASKS
       * attenuator_map2
       * attenuator_map1
       * attenuator_day
-      Doble click y luego check en Enabled(Scheduled task runs at specified time)
+     
+     Doble click y luego check en Enabled(Scheduled task runs at specified time)
   8. Ahora entramos a la PC de procesamiento.
   9. Descomentamos las siguiente lineas de codigo
    
