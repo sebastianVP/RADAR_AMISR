@@ -89,14 +89,14 @@ START-> ALL PROGRAM -> ACCESORIES -> SYSTEM TOOLS ->  SCHEDULED TASKS
       Doble click y luego check en Enabled(Scheduled task runs at specified time)
   8. Ahora entramos a la PC de procesamiento.
   9. Descomentamos las siguiente lineas de codigo
-     # m h  dom mon dow   command
-
+   
      58 17 * * * export DISPLAY=:0 && /home/soporte/Desktop/scripts/2024/bash/killing_schain.sh
-     ##  #05 18 * * * export DISPLAY=:0 && /home/soporte/Desktop/scripts/2024/bash/isr_offline.sh
+
      07 18 * * * export DISPLAY=:0 && /home/soporte/Desktop/scripts/2024/bash/esf_online.sh
-     #
+     
      58 06 * * * export DISPLAY=:0 && /home/soporte/Desktop/scripts/2024/bash/killing_schain_SYNC.sh
+
      01 07 * * * export DISPLAY=:0 && /home/soporte/Desktop/scripts/2024/bash/esf_offline.sh
-     ##  #01 12 * * * export DISPLAY=:0 && /home/soporte/Desktop/scripts/2024/bash/esf_offline_snr.sh
+
      07 07 * * * export DISPLAY=:0 && /home/soporte/Desktop/scripts/2024/bash/isr_online.sh
 
