@@ -70,5 +70,33 @@ START-> ALL PROGRAM -> ACCESORIES -> SYSTEM TOOLS ->  SCHEDULED TASKS
    - attenuator_map2
    - attenuator_map1
    - attenuator_day
-  
-     
+
+
+  # OPERACION CONTINUA DE AMISR
+
+  1. INGRESAR A LA PC DE ADQUISICION
+  2. Ubicar el directorio C:\Documents and Settings\radar\Desktop\scripts
+  3. Activar el programa attenuate_radar2.py hasta observar el mensaje starting steady
+  4. En la dtc0, apretamos Record, esperamos , Run , esperamos , RF , esperamos y apretamos Abort Experiment.
+  5. Luego volvemos a ejecutar attenuate_radar2.py hasta observar el mensaje starting steady
+  6. Apretamos el boton dentro la opcioens system de Manual para pasar a la configuracion automatica.
+  7. Despues de esto nos vamos a el menu Start -> All Programs -> Accesorios -> System Tools -> Scheduled Tasks. Aqui activamos los 5 programas:
+      * attenuator_night
+      * attenuator_map3
+      * attenuator_map2
+      * attenuator_map1
+      * attenuator_day
+      Doble click y luego check en Enabled(Scheduled task runs at specified time)
+  8. Ahora entramos a la PC de procesamiento.
+  9. Descomentamos las siguiente lineas de codigo
+     # m h  dom mon dow   command
+
+     58 17 * * * export DISPLAY=:0 && /home/soporte/Desktop/scripts/2024/bash/killing_schain.sh
+     ##  #05 18 * * * export DISPLAY=:0 && /home/soporte/Desktop/scripts/2024/bash/isr_offline.sh
+     07 18 * * * export DISPLAY=:0 && /home/soporte/Desktop/scripts/2024/bash/esf_online.sh
+     #
+     58 06 * * * export DISPLAY=:0 && /home/soporte/Desktop/scripts/2024/bash/killing_schain_SYNC.sh
+     01 07 * * * export DISPLAY=:0 && /home/soporte/Desktop/scripts/2024/bash/esf_offline.sh
+     ##  #01 12 * * * export DISPLAY=:0 && /home/soporte/Desktop/scripts/2024/bash/esf_offline_snr.sh
+     07 07 * * * export DISPLAY=:0 && /home/soporte/Desktop/scripts/2024/bash/isr_online.sh
+
