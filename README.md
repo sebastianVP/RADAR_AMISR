@@ -4,6 +4,10 @@ LINK DEL MANUAL
 
 https://docs.google.com/document/d/1rlvfqkruhY_HSygER4kBjM4mQinlJhCRRvEd5ohMy0Q/edit?usp=sharing
 
+Manual de Operacion del Radar Umet - PC Adquisicion
+
+https://docs.google.com/document/d/1_xXONPduq1S_UoSfhh6MsidOMGHuFDMF6CFuRHtz7DM/edit#heading=h.fkvxal7jmrra
+
 
 CONEXION REMINA PC ADQUISICION -DTC0
 
