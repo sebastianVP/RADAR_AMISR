@@ -8,6 +8,9 @@ Manual de Operacion del Radar Umet - PC Adquisicion
 
 https://docs.google.com/document/d/1_xXONPduq1S_UoSfhh6MsidOMGHuFDMF6CFuRHtz7DM/edit#heading=h.fkvxal7jmrra
 
+Log de Eventos AMISR
+
+https://docs.google.com/spreadsheets/d/1ODwuhwM933uPjb2t6YIcSEd_VXTj8NyVoG3sKURyQiA/edit#gid=1599059254
 
 CONEXION REMINA PC ADQUISICION -DTC0
 
