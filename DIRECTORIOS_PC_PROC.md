@@ -42,3 +42,30 @@ Este disco esta montado e el siguiente directorio:
 /dev/sdb2             3.7T  2.9T  829G  78% /media/soporte/TOSHIBA EXT1 
 
 
+## DISCO EXTERNO - USOS
+
+El disco externo TOSHIBA se utiliza para copiar los datos del directorio de adquisicion /mnt/data_amisr y darle la alternativa de tener mas espacio y no interrumpir
+la adquisicion y grabado de datos.  El disco de adquisicion solo tiene un espacio de 932 Gb es importante revisar que le disco no se llene. Por eso se recomienda
+despues de procesar mover la data a el disco externo.
+
+### REVISION DE DATOS AMIR- TORMENTA - DIAS 10 Y 11 DE MAYO DEL 2024
+
+DIA 10
+
+soporte@IGP-153:/media/soporte/TOSHIBA EXT1/DATA_AMISR/2024$ du -sh 20240510*
+
+27G	20240510.001 \
+1.4G	20240510.002 \
+31G	20240510.004 \
+35G	20240510.005 \
+
+
+DIA 11
+
+soporte@IGP-153:/media/soporte/TOSHIBA EXT1/DATA_AMISR/2024$ du -sh 20240511*
+
+27G	20240511.001 \
+1.4G	20240511.002 \
+31G	20240511.004 \
+35G	20240511.005 \
+
