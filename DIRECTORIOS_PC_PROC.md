@@ -33,12 +33,12 @@ $ cd /mnt/DATA/AMISR14/2024/
 
 $ ls
 
-EEJ  ESF  ISR  MET\
+EEJ  ESF  ISR  MET
 
 # DISCO EXTERNO TOSHIBA
 
 Este disco esta montado e el siguiente directorio:
 
-/dev/sdb2             3.7T  2.9T  829G  78% /media/soporte/TOSHIBA EXT1 \
+/dev/sdb2             3.7T  2.9T  829G  78% /media/soporte/TOSHIBA EXT1 
 
 
