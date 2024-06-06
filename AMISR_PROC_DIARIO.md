@@ -20,6 +20,7 @@ $crontab -l
 
 Este directorio contiene los programas de ISR y ESF en modo offline y online, estos programas se ejecutan diariamente,archivos en python
 
+```
 $cd /home/soporte/Desktop/scripts/2024/python/
 $ ls -l
 
@@ -37,3 +38,4 @@ remove_RTIs.py
 ryncToDallas.py
 scanEEJ.pt
 send_ckan.py
+```
