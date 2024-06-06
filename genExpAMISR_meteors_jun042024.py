@@ -45,14 +45,14 @@ print (mainpath,rangepath)
 #sExpName = 'winds'
 
 
-# sExpName = 'Meteors_4beam_2024_d2'
-sExpName = 'ISR_2Beam_10ms_24'
+sExpName = 'Meteors_ns_1beam_jun042024'
 
 
-# rxc_filename = 'blackman_01.00usec_020505_20.0.rxc'     #Meteors
+
+rxc_filename = 'blackman_01.00usec_020505_20.0.rxc'     #Meteors
 #rxc_filename = 'blackman_10.00usec_051010_20.0.rxc'     #ESF, ISR_5
 
-rxc_filename = 'blackman_05.00usec_020525_20.0.rxc'    #EEJ, ISR
+#rxc_filename = 'blackman_05.00usec_020525_20.0.rxc'    #EEJ, ISR
 
 a = datetime.date.today()
 date = a.strftime("%Y%m%d")
@@ -69,20 +69,21 @@ if not (os.path.exists(path)):
 
 # Configuracion de experimento
 SYNC = 1000000.0 # us =  1 second
-# Pulsos ISR 2022-ISR 2 beam 20°S - Perp 
-IPP = 10000
-nTxA = 600
-sCode = None
-ncode = 0
-nbaud = 1
+# Pulsos
+IPP = 1250.0 # 10000 ESTA EN useg 1useg -> 150 metros  para el caso de 187.5 Km -> 1250 useg
+nTxA = 112 # en useg
+sCode = '1000111100010001000100101101'
+ncode = 1
+nbaud = 28
 nh0 = 0              #en us
-ndh = 5 #10              #en us
-nsa = 1960 # 980
-nProfBlock = 3000  #multiplo de los canales e ipps
-nBlockFile = 10 #
+ndh = 1 #10              #en us
+nsa = 440 # 980
+nProfBlock = 48000  #3000  #multiplo de los canales e ipps
+nBlockFile = 5   #10 #
 
 
-sbeam = [ '0xE9B7', '0xF923',] # Perp ,  20S
+sbeam = [ '0xE9B7'] # Perp , 
+#sbeam = [ '0xE9B7', '0xF923',] # Perp ,  20S
 nbeam = len(sbeam)
 '''
 BEAM 1.0: 	180.0	 87.87 	    0xE9B7 
@@ -93,7 +94,7 @@ RxBand = 445
 TxBand = 445
 
 # Consideraciones para procesamiento
-bBeamProf = 0     #boolean 0:beam cambia cada IPP 1: beams seguidos hasta completar nFFT IPPs
+bBeamProf = 1     #boolean 0:beam cambia cada IPP 1: beams seguidos hasta completar nFFT IPPs
 nFFT =    1          #si puntos de FFT, entonces perfiles seguidos con mismo apunte ( 16 for EEJ;  32 for ESF;16 for ESF_EWDrift)
 
 nTX = 0      #IPPs transmitidos en 1 intervalo de SYNC, si se nTx = 0 se llena todo el SYNC
@@ -101,7 +102,7 @@ nTX = 0      #IPPs transmitidos en 1 intervalo de SYNC, si se nTx = 0 se llena t
 # ##################################################################
 # ##################################################################
 # tiempos predeterminados de AMISR
-samp_start = 200 #wind=400, else = 200,  meteors = 810
+samp_start = 810 #wind=400, else = 200,  meteors = 810
 aeu_start = 401
 uc_start = 408
 dc_start = 408
