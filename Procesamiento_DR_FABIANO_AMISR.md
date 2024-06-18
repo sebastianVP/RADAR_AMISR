@@ -1,7 +1,7 @@
 # **PROCESAMIENTO INVESTIGADORES**
 ---
 
-Investiador: Dr. Fabiano Rodriguez.
+Investigador: Dr. Fabiano Rodriguez.
 
 Programas para obtención de datos:
 
@@ -19,7 +19,9 @@ LOGFILE=$(pwd)"/LOGFILE_ESF_OFF.txt"
 
 Este script en bash tiene dos programas python a ejecutar:
 
-/home/soporte/Desktop/scripts/2024/python/send_ckan.py
+* /home/soporte/Desktop/scripts/2024/python/esf_offline.py
+
+* /home/soporte/Desktop/scripts/2024/python/send_ckan.py
 
 El programa esf_merge.py generar los datos en 2 carpetas, para el **procesamiento que nos interesa nos enfocamos en el directorio path_hdf5_out**
 ```
