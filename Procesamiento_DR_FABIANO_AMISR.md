@@ -27,3 +27,26 @@ inPath = '/mnt/data_amisr'
 outPath = '/mnt/DATA/AMISR14/2024/ESF
 path_hdf5_out= '/mnt/DATA/data2Fabiano/POWER_H5_AMISR/2024'
 ```
+El envio de los de potencia al servidor del Dr. Fabiano, se realiza ejecutando el siguiente script:
+
+/home/soporte/Desktop/scripts/2024/python/ryncToDallas.py
+
+El contenido del archivo se puede visualizar a continuacion:
+```
+import os
+
+path_hdf5_out= '/mnt/DATA/data2Fabiano/POWER_H5_AMISR/2024/' #ruta ESF
+localfolder = path_hdf5_out+"*"
+remotefolder = '/mfs/io/groups/uars/amisr14/DATA_2024/'
+keyPath = "/home/soporte/Documents/AMISR_SSH_KEY/AMISR14.key"
+server = 'debyedata.utdallas.edu'
+username = "scintpi"
+port = 2222
+cmd = """rsync -a --progress -e "ssh -i {} -p {}" {} {}@{}:{}""".format(keyPath,port,localfolder,username,server,remotefolder )
+print("Executing command\n {}".format(cmd))
+try :
+    os.system(cmd)
+except Exception as e:
+    print(e)
+```
+
