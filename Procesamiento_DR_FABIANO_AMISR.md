@@ -50,3 +50,7 @@ except Exception as e:
     print(e)
 ```
 
+Para ejecutar usar  el comando:
+
+/home/soporte/anaconda3/envs/schain3/bin/python3.8 /home/soporte/Desktop/scripts/2024/python/ryncToDallas.py
+
