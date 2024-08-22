@@ -17,7 +17,7 @@ Aqui tenemos la carpeta 2024218 por ejemplo y una imagen de rti
 │   ├── d2024227 
 
 
-│   │   └── D2024227000.hdf5 \\
+│   │   └── D2024227000.hdf5 
 
 
 │   └── pow_20240814.png
