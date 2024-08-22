@@ -11,9 +11,15 @@ Aqui tenemos la carpeta 2024218 por ejemplo y una imagen de rti
 
 - path_hdf5_out='/mnt/DATA/data2Fabiano/POWER_H5_AMISR/2024'
 
-├── ESF2024227 \\
-│   ├── d2024227
+├── ESF2024227 
+
+
+│   ├── d2024227 
+
+
 │   │   └── D2024227000.hdf5 \\
+
+
 │   └── pow_20240814.png
 
 
