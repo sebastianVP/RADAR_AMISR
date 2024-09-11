@@ -22,4 +22,16 @@ Aqui tenemos la carpeta 2024218 por ejemplo y una imagen de rti
 
 │   └── pow_20240814.png
 
+l = startDate.split('/')
+doy = str(DOY).zfill(3)
 
+outpath1 = outPath+"/"+l[0]+doy
+outpath2 = path_hdf5_out+ "/ESF"+l[0]+doy
+
+## outPath1
+opObj11 = proc_spc1.addOperation(name='RTIPlot', optype='external')
+opObj11.addParameter(name='save', value=outPath1, format='str')
+
+## outPath2
+writer1 = proc_param1.addOperation(name='HDFWriter',optype='other')
+writer1.addParameter(name='path', value=outPath2)
