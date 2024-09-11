@@ -26,6 +26,7 @@ l = startDate.split('/')
 doy = str(DOY).zfill(3)
 
 outpath1 = outPath+"/"+l[0]+doy
+
 outpath2 = path_hdf5_out+ "/ESF"+l[0]+doy
 
 ## outPath1
