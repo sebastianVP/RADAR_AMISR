@@ -54,7 +54,7 @@ attenuate_radar2.py
 7. La limpieza de la fuente, filtros y mantenimiento oportuno evita las alarmas por temperatura en el radar.
 
 # PROCESAMIENTO PARA INVESTIGADORES
-1. Juan Pablo.
+1. Juan Pablo, Roberto.
    * /home/soporte/Desktop/scripts/2024/python
    * esf_merge_snrDays.py
 2. Marco
